@@ -1,0 +1,52 @@
+1. touch test.txt  => to create a text file called test
+
+	ls => to see list of files
+	ls -a => to see list of hidden files
+
+2. git init
+3. git status
+4. git add .
+5. git commit -m "(feature) I have added a live on text"
+
+6. git log ==> to see log changes of files
+7. git log --oneline ==> to see all the log changes with shortcut
+
+	<!----- if you want to come back any version of you commit ---->
+8. git reset --hard 'git commit id'
+   git reset --hard df4f9f03e25828ea5a3267b123fe5f4dea6ac1b2
+
+
+b4cc7296f12b1793124e3823c7fc15a4b64562fc
+
+
+9. git reflog    ==> ek commit theke onno commit e move korar activity o track kore ei command
+
+10. git rm --cached 'filename.extension'  => to unstage a file
+11. git rm 'filename' ==> to delete a file permanently
+
+
+
+12. git branch --list  => to see the branch lists
+13. git branch 'branch-name'  => to create a new branch
+14. git switch 'branch-name'  => to move from one branch to another
+15. git branch -m new branch name => to rename  a branch
+16. git branch -d branch-name => to delete a branch
+
+17. git stash
+18. git stash -a => to stash all file
+19. git stash list
+
+20. git stash show -p => ki ki code / file stash e rekhe giyechilam ta dekhabe.
+21. git stash pop =>
+
+
+
+Part2:
+1. git config --global user.name "Your Name"  => To set username 
+2. git config --global user.email "you@example.com"
+
+3. git config user.name => To see git user name
+
+4. git push => to add files from local to remote repo
+5. git pull => pull all the files from remote to local repo.
+
